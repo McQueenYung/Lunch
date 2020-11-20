@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+     <meta charset='utf-8'>
+    <!-- <meta charset='big5'> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script> -->
+    
+    <title>是日餐單</title>
+    
+    <link rel='stylesheet' href='styles/app.css'>
+    <link rel="apple-touch-icon" sizes="152x152" href="images/bg_icon.jpg">
+  
+  </head>
+  
+  <body onload="Run();">
+    
+<hr>    
+    <div id="day" class="Tday"></div>
+    <div id="weekdayCH" class="Tweek"></div>
+    <div id="weekdayPT" class="Tweek"></div>
+    
+<hr>
+    <div id="title" class="l_title">午餐 ALMOÇO</div>
+    <textarea id="lunch_CH_sopa" type="text" rows="2" cols="1"    class="l_cont"></textarea><br>
+    <textarea id="lunch_PT_sopa" type="text" rows="3" cols="1"    class="l_cont_p"></textarea><br>  
+    <textarea id="lunch_CH_N_prato" type="text" rows="2" cols="1" class="l_cont" ></textarea><br>
+    <textarea id="lunch_PT_N_prato" type="text" rows="3" cols="1" class="l_cont_p" ></textarea>
+<hr>
+    <div id="title" class="d_title" >晚餐 JANTAR</div>
+    <textarea id="dinner_CH_sopa" type="text" rows="2" cols="1"    class="d_cont" ></textarea><br>
+    <textarea id="dinner_PT_sopa" type="text" rows="3" cols="1"    class="d_cont_p" ></textarea><br>
+    <textarea id="dinner_CH_N_prato" type="text" rows="2" cols="1" class="d_cont" ></textarea><br>
+    <textarea id="dinner_PT_N_prato" type="text" rows="3" cols="1" class="d_cont_p" ></textarea>
+    <hr>
+    <div id="ref" class="ref" >以上餐單僅供參考並以餐房當天公佈為準.<br>
+    Menus acima são somente para referência e liberado no mesmo dia, conforme o jantar.
+    <br>
+      <!-- <a href="./data/List.htm">本月餐單</a> -->
+    
+      <div class="container">
+        <div id="dev" class="dev" >Designed & developed by MQ.</div>
+        <div id="dev" class="dev" ><a href="http://mq-web.net">http://mq-web.net</div>
+        <div class="MQ"></div>
+      </div>
+      
+    </div>
+    
+    <script src="scripts/app.js"></script>  
+  
+  </body>
+   
+</html>
